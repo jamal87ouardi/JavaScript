@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 JS</title>
+
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="c1">
+        <form>
+
+                <table>
+                    <tr>
+                        <td>Poids</td>
+                        <td><input type="text" id="in_poids"></td>
+                    </tr>
+                    <tr>
+                        <td>Taille</td>
+                        <td><input type="text" id="in_taille"></td>
+                    </tr>
+                    <tr>
+                        <td>Unité</td>
+                        <td>
+                            <input type="radio" name="groupe_1" id="r_metres" value="metres">
+                            <label>m</label>
+
+                            <input type="radio" name="groupe_1" id="r_cm" value="cm">
+                            <label>cm</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="IMC" class="s1" onclick="cacluler_imc()"></td>
+                        <td><input type="button" value="Clear" class="s1" onclick="clear_imc()"></td>
+                    </tr>
+                    <tr>
+                        <td>Resultat: </td>
+                        <td><label id="resultat">0</label></td>
+                        
+                    </tr>
+                    <tr>
+
+                        <td>Interprétation:</td>
+                        <td><label id="msg">--</label></td>
+                    </tr>
+                </table>
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="js/script1.js"></script>
+</body>
+</html>
