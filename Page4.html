@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style4.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td><label>Full name</label></td>
+                    <td><input type="text" id="np" placeholder="nom et prenom" focused></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id="r">
+                            <div>
+                                <input type="radio" name="g2" id="done" checked>
+                                <label>D1</label></div>
+                            <div>
+                                <input type="radio" name="g2" id="dtwo">
+                                <label>D2</label></div>
+                            <div>
+                                <input type="radio" name="g2" id="dthree">
+                                <label>D3</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Quantite</label></td><td><input type="text" id="quantite" placeholder="quantite"></td>
+                </tr>
+                <tr>
+                    <td><label>Client fidel</label></td>
+                    <td><input type="checkbox" id="fidel"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="calculer" class="d1" onclick="calculer_ptr()"></td>
+                    <td><input type="button" value="clear" class="d1" onclick="clear_inputs()"></td>
+                </tr>
+                <tr>
+                    <td><label>Client</label> </td><td><span id="client"></span></td>
+                </tr>
+                <tr>
+                    <td><label>Toltal</label> </td><td><span id="total"></span></td>
+                </tr>
+                <tr>
+                    <td><label id="msgLb"></label> </td><td><span id="msgSP"></span></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="js/script4.js"></script>
+</body>
+</html>
