@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 6</title>
+    <link rel="stylesheet" href="css/style6.css">
+</head>
+<body>
+    
+    <div class="c1">
+        <form>
+            <table>
+                    <tr>
+                        <td>Smartphone</td>
+                        <td>
+
+                            <select name="sph" id="sph" >
+                                <option value="">--Please choose--</option>
+                                <option value="P7">Pixel 7</option>
+                                <option value="P5">Pixel 5</option>
+                                <option value="P4">Pixel 4</option>
+                                
+                            </select>
+                        </td>
+
+
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>Variante</td>
+                        <td>
+                            <input type="radio" name="groupe_1" id="std" checked>
+                            <label>Standard</label>
+                            <input type="radio" name="groupe_1" id="mini">
+                            <label>Mini</label>
+
+                            <input type="radio" name="groupe_1" id="pro" >
+                            <label>Pro</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" class="s1" value="Prix" onclick="prix_sph()"></td>
+                        <td><input type="button" class="s1" value="Clear" onclick="clear_sph()"></td>
+                    </tr>
+                    <tr>
+                        <td>Prix:</td>
+                        <td><label id="pr"></label></td>
+                    </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="js/script6.js"></script>
+</body>
+</html>
