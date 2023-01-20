@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 7</title>
+    <link rel="stylesheet" href="css/style7.css">
+</head>
+<body>
+    
+    <div class="c1">
+        <form>
+            <table>
+                    <tr>
+                        <td>Niveau d'etude</td>
+                        <td>
+
+                            <select name="ne" id="ne" >
+                                <option value="raw">--Please choose--</option>
+                                <option value="BAC2">BAC + 2</option>
+                                <option value="BAC3">BAC + 3</option>
+                                <option value="BAC5">BAC + 5</option>
+                                
+                            </select>
+                        </td>
+
+
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>Années d'experiences</td>
+                        <td>
+                            <input type="radio" name="groupe_1" id="d" checked>
+                            <label>Débutant</label>
+                            <input type="radio" name="groupe_1" id="da">
+                            <label>Deux ans</label>
+                       
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Certification FE</td>
+                        <td><input type="checkbox" id="cert"></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="button" class="s1" value="Calculer" onclick="calc_sal()"></td>
+                        <td><input type="button" class="s1" value="Clear" onclick="clear_sal()"></td>
+                    </tr>
+                    <tr>
+                        <td>Salaire:</td>
+                        <td><label id="s"></label></td>
+                    </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="js/script7.js"></script>
+</body>
+</html>
