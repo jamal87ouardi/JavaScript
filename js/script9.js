@@ -48,8 +48,5 @@ function solutions() {
 
     $('#delta').html(delta.toFixed(2));
     $('#inter').html(inter);
-    
-    
-
 
 }
