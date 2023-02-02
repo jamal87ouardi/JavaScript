@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css handling</title>
+    <link rel="stylesheet" href="css/style10.css">
+</head>
+<body>
+    
+    <div class="c1">
+        <form>
+            <table>
+                    <tr>
+                        <td>Phrase:</td>
+                        <td><input type="text" id="ph"></td>
+                    </tr>
+                    <tr>
+                        <td>Taille:</td>
+                        <td><input type="text" id="t"></td>
+                    </tr>
+                    <tr>
+                        <td>Couleur:</td>
+                        <td>
+
+                            <select name="c" id="c" >
+                                <option value="raw">--Please choose--</option>
+                                <option value="Bleu">Bleu</option>
+                                <option value="Vert">Vert</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Rouge">Rouge</option>
+                                
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Gras:</td>
+                        <td><input type="checkbox" id="g"></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="s1" value="Formatter" onclick="formatter()">
+                        </td>
+                        <td>
+                            <input type="button" class="s1" value="Clear" onclick="clear()">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Resultat:</td>
+                        <td><label id="r"></label></td>
+                    </tr>
+                    
+
+
+            </table>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/script10.js"></script>
+</body>
+</html>
