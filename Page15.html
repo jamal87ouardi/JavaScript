@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="css/style10.css">
+</head>
+<body>
+    
+    <div class="c1">
+        <form>
+            <table>
+                    
+                    <tr>
+                        <td>Nom:</td>
+                        <td>
+
+                            <input type="text" id="nom"> <label id="l1" >  Obligatoire</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Prenom:</td>
+                        <td>
+
+                            <input type="text" id="prenom"><label id="l2"  style="color:red">  Obligatoire</label>
+                        </td>
+                    </tr>
+
+                   
+
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+
+                            <input type="email" id="mail"><label id="l3"  style="color:red">  Obligatoire</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Niveau d'etudes:</td>
+                        <td>
+
+                            <select name="ne" id="ne" >
+                                <option value="raw">--Please choose--</option>
+                                <option value="n1">Bac</option>
+                                <option value="n2">Bac + 2</option>
+                                <option value="n3">Bac + 5</option>
+                                
+                                
+                            </select>
+                            
+                            <label id="l4"   style="color:red">  Veillez choisir</label>
+
+                        </td>
+                    </tr>
+                                        
+                    
+                    <tr>
+                        <td>
+                            <input type="button" id="aff" class="s1" value="Envoyer" >
+                        </td>
+                        <td>
+                            <input type="button" id="cl" class="s1" value="Clear" >
+                        </td>
+
+                    </tr>
+                   
+                    
+
+
+            </table>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/script15.js"></script>
+</body>
+</html>
