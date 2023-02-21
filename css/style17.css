@@ -26,3 +26,12 @@
 .s1:hover {
     background-color: rgb(229, 247, 148);
 }
+
+progress {
+
+    margin-left: 60px;
+}
+
+label {
+    margin-left: 50px;
+}
