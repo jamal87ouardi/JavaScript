@@ -1,21 +1,20 @@
-var data = {
-    "pays": [
-       {
-          "name": "United States",
-          "population": 328200000
-       },
-       {
-          "name": "China",
-          "population": 1393000000
-       },
-       {
-          "name": "India",
-          "population": 1366000000
-       },
-       {
-          "name": "Brazil",
-          "population": 212800000
-       }
-    ]
-}
+$('#btn').click(function(){
+
+    url = 'https://run.mocky.io/v3/846f05a9-3c44-4c87-a051-8b2bc0d57e20';
+
+    sel=$('#sel');
+
+    $.getJSON(url, function(data) {
+        
+            $.each(data.cars, function (cle, valeur) {
+
+                op='<option>'+ valeur.make+' '+valeur.model+'</option>'
+            
+                sel.append(op);
+            
+        });
+    
+   });   
+
+});
  
