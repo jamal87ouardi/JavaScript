@@ -1,0 +1,41 @@
+.c1 {
+    position:relative;
+    top: 50px;
+    left: 100px;
+    background-color: rgb(174,172,172);
+    width: 650px;
+    height: 510px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.c1 td {
+    padding: 20px;
+}
+.d1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.c1 * {
+    padding: 10px;
+}
+.s1 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(216,216,26);
+    color:blue;
+    width: 190px;
+    border: 1px;
+}
+.s1:hover {
+    background-color: rgb(229,247,148);
+}
+label {
+    margin-left: 10px;
+}
+
+#tab_tv img {
+
+    width: 70px;
+    height: 70px;
+}
